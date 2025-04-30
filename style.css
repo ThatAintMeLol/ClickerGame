@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+#counterDisplay {
+    font-size: 40px; /* Larger counter */
+    font-weight: bold; /* Bold text */
+}
+
+#ppsDisplay {
+    font-size: 20px; /* Half the counter size */
+    color: gray; /* Subtle indicator */
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.dvd {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+}
+
+.dvd img {
+    width: 100%;
+    height: 100%;
+}
