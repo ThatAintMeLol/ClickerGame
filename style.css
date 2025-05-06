@@ -7,13 +7,13 @@ body {
 }
 
 #counterDisplay {
-    font-size: 40px; /* Larger counter */
-    font-weight: bold; /* Bold text */
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #ppsDisplay {
-    font-size: 20px; /* Half the counter size */
-    color: gray; /* Subtle indicator */
+    font-size: 20px;
+    color: gray;
 }
 
 button {
@@ -22,13 +22,16 @@ button {
     margin: 10px;
 }
 
-.dvd {
-    position: absolute;
-    width: 100px;
-    height: 50px;
+#clickButton {
+    font-size: 24px;
 }
 
-.dvd img {
-    width: 100%;
-    height: 100%;
+#upgradeButton, #mysteryUpgradeButton {
+    font-size: 20px;
+}
+
+.movingImage {
+    position: absolute;
+    width: 50px;
+    height: 50px;
 }
